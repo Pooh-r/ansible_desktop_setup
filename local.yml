@@ -13,3 +13,8 @@
         - kitty
         - stellarium
         - eza  
+
+
+# Files for Stow Management
+#   .bash_aliases
+#   .gitconfig
