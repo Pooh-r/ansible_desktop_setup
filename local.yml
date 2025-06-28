@@ -13,7 +13,7 @@
         - kitty
         - stellarium
         - eza  
-
+        - remmina
 
 # Files for Stow Management
 #   .bash_aliases
