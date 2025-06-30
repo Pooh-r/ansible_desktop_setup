@@ -16,9 +16,10 @@
         - remmina
         - ansible
         - stow
-
+        - tldr
 
 
 # Files for Stow Management
 #   .bash_aliases
 #   .gitconfig
+#   run update for tldr index 
