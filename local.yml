@@ -17,9 +17,11 @@
         - ansible
         - stow
         - tldr
-
+        - cmatrix
 
 # Files for Stow Management
 #   .bash_aliases
 #   .gitconfig
 #   run update for tldr index 
+#   Clone git dotfiles repo
+#   stow dotfiles to ~/
