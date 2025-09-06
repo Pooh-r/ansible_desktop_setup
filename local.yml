@@ -12,12 +12,15 @@
         - vim-nox
         - kitty
         - stellarium
+        - darktable
+        - gimp
         - eza  
         - remmina
         - ansible
         - stow
         - tldr
         - cmatrix
+        - freecad
 
 # Files for Stow Management
 #   .bash_aliases
