@@ -4,21 +4,26 @@
   become: true
 
   tasks:
-  - name: install packages 
+  - name: install server packages 
     package:
       name: 
         - htop
         - tmux
         - vim-nox
         - kitty
-        - stellarium
-        - darktable
-        - gimp
         - eza  
-        - remmina
         - ansible
         - stow
         - tldr
+        - 
+tasks:
+  - name: install desktop packages 
+    package:
+      name: 
+        - stellarium
+        - darktable
+        - gimp
+        - remmina
         - cmatrix
         - freecad
 
