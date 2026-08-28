@@ -15,7 +15,8 @@
         - ansible
         - stow
         - tldr
-        - 
+        - unrar
+ 
 tasks:
   - name: install desktop packages 
     package:
@@ -26,6 +27,10 @@ tasks:
         - remmina
         - cmatrix
         - freecad
+
+#install fzf
+# git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+#  ~/.fzf/install
 
 # Files for Stow Management
 #   .bash_aliases
